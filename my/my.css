@@ -1,0 +1,12 @@
+.touxiang{
+display:inline-block;
+margin:5px auto;
+width:150px;
+height:150px;
+border-radius:100px;
+-webkit-border-radius:100px;
+-moz-border-radius:100px;
+border:2px solid #fff;
+box-shadow:0 0 4px #ccc;
+overflow:hidden;
+}

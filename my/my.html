@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html style="padding: 0.3125rem;">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="../css/mui.min.css" />
+		<link rel="stylesheet" type="text/css" href="./my.css" />
+		<title>我的</title>
+	</head>
+	<body>
+		<header class="mui-bar mui-bar-nav" style="background-color: #059cf8;">
+			<h1 class="mui-title">我的</h1>
+		</header>
+		<div  class="mui-content" id="refreshContainer">
+		<div >
+			<div style="width: 100%;height:200px;background:url(back.jpg);display: flex;justify-content: center;align-items: center;">
+				<div class="touxiang" id="login1">
+					<img src="666.png" />
+				</div>
+			</div>
+			<div style="display: flex;justify-content: center;align-items: center;">
+				<div style="height: 60px;width: 120px;display: flex;justify-content: center;align-items: center;font-size: 1.25rem;"id="username">请登录</div>
+			</div>
+			<div>
+			<div class="mui-card">
+				<div class="mui-card-content">
+					<ul class="mui-table-view" id="row1">
+						<div class="mui-row">
+							<div class="mui-col-sm-2">
+								<li class="mui-table-view-cell">
+									名称
+								</li>
+							</div>
+							<div class="mui-col-sm-8">
+								<li class="mui-table-view-cell" id="name">
+								</li>
+							</div>
+						</div>
+					</ul>
+				</div>
+			</div>
+			<div class="mui-card">
+				<div class="mui-card-content">
+					<ul class="mui-table-view" id="row1">
+						<div class="mui-row">
+							<div class="mui-col-sm-2">
+								<li class="mui-table-view-cell">
+									电话
+								</li>
+							</div>
+							<div class="mui-col-sm-8">
+								<li class="mui-table-view-cell" id="mobile">
+								</li>
+							</div>
+						</div>
+					</ul>
+				</div>
+			</div>
+			<div class="mui-card">
+				<div class="mui-card-content">
+					<ul class="mui-table-view" id="row1">
+						<div class="mui-row">
+							<div class="mui-col-sm-2">
+								<li class="mui-table-view-cell">
+									地址
+								</li>
+							</div>
+							<div class="mui-col-sm-8">
+								<li class="mui-table-view-cell" id="address">
+								</li>
+							</div>
+						</div>
+					</ul>
+				</div>
+			</div>
+			<div class="mui-card">
+				<div class="mui-card-content">
+					<ul class="mui-table-view" id="row1">
+						<div class="mui-row">
+							<div class="mui-col-sm-2">
+								<li class="mui-table-view-cell">
+									全称
+								</li>
+							</div>
+							<div class="mui-col-sm-8">
+								<li class="mui-table-view-cell" id="allname">
+								</li>
+							</div>
+						</div>
+					</ul>
+				</div>
+			</div>
+			<div class="mui-card">
+				<div class="mui-card-content">
+					<ul class="mui-table-view" id="row1">
+						<div class="mui-row">
+							<div class="mui-col-sm-2">
+								<li class="mui-table-view-cell">
+									城市
+								</li>
+							</div>
+							<div class="mui-col-sm-8">
+								<li class="mui-table-view-cell" id="city">
+								</li>
+							</div>
+						</div>
+					</ul>
+				</div>
+			</div>
+			</div>
+			<div style="display: flex;justify-content: center;align-items: center;">
+				<button type="button" id="change">修改信息</button>
+			</div>
+			<div style="display: flex;justify-content: center;align-items: center;">
+				<button type="button" id="logout">退出登录</button>
+			</div>
+		</div>
+		</div>
+		<nav class="mui-bar mui-bar-tab">
+			<p class="mui-tab-item" id="jump_discover">
+				<span class="mui-icon mui-icon-videocam"></span>
+				<span class="mui-tab-label">发现</span>
+			</p>
+			<p class="mui-tab-item " id="jump_first">
+				<span class="mui-icon mui-icon-home">
+				</span>
+				<span class="mui-tab-label">首页</span>
+			</p>
+			<p class="mui-tab-item  mui-active" id="jump_my">
+				<span class="mui-icon mui-icon-contact"></span>
+				<span class="mui-tab-label">我的</span>
+			</p>
+		</nav>
+		<script src="../js/mui.js" type="text/javascript" charset="utf-8"></script>
+		<script src="my.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+</html>
