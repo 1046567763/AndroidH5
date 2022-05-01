@@ -6,6 +6,5 @@
 ## regist 注册账号
 ## login 登录账号
 ## my.html  个人信息页面
-### 刷新要刷两次才会更新信息
 ## chang.html 修改信息
 ## discover 发现页
